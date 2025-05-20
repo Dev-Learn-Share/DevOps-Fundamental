@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SDLC & DevSecOps - Technical Architect Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    h1, h2, h3 {
+      font-family: 'Fira Code', monospace;
+      color: #1a237e;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+    }
+    p, li {
+      font-size: 1rem;
+    }
+    .highlight {
+      color: #d32f2f;
+      font-weight: bold;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      background: #fff;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background-color: #e8eaf6;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    blockquote {
+      border-left: 5px solid #3f51b5;
+      padding-left: 1rem;
+      color: #555;
+      background: #e3f2fd;
+      font-style: italic;
+    }
+    code {
+      background: #eee;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: 'Fira Code', monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>📘 Software Development Life Cycle (SDLC) — Architect’s Narrative</h1>
+
+  <div class="section">
+    <h2>1. Purpose of SDLC</h2>
+    <p>The <span class="highlight">Software Development Life Cycle (SDLC)</span> is a structured process for planning, building, testing, and deploying software. It ensures the software aligns with business goals, is cost-effective, secure, and scalable.</p>
+  </div>
+
+  <div class="section">
+    <h2>2. Why SDLC Matters</h2>
+    <ul>
+      <li>Establishes <span class="highlight">accountability</span></li>
+      <li>Encourages <span class="highlight">early risk identification</span></li>
+      <li>Promotes <span class="highlight">cross-functional collaboration</span></li>
+      <li>Embeds <span class="highlight">quality and security</span> into the workflow</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Phases of SDLC (With Real-World Analogies)</h2>
+    <table>
+      <tr>
+        <th>Phase</th>
+        <th>Objective</th>
+        <th>Explanation</th>
+      </tr>
+      <tr>
+        <td>Planning</td>
+        <td>Define goals, scope, budget, schedule</td>
+        <td>What are we building? Why? Who’s involved?</td>
+      </tr>
+      <tr>
+        <td>Requirement Gathering</td>
+        <td>Understand user needs and constraints</td>
+        <td>What should the software do?</td>
+      </tr>
+      <tr>
+        <td>Design</td>
+        <td>Architect the solution</td>
+        <td>UI/UX, data flow, backend, and infrastructure</td>
+      </tr>
+      <tr>
+        <td>Development</td>
+        <td>Build the application</td>
+        <td>Code the functionality, integrate systems</td>
+      </tr>
+      <tr>
+        <td>Testing</td>
+        <td>Verify correctness and security</td>
+        <td>Ensure reliability, performance, and compliance</td>
+      </tr>
+      <tr>
+        <td>Deployment</td>
+        <td>Move to live production</td>
+        <td>Release to users via pipelines or manual process</td>
+      </tr>
+      <tr>
+        <td>Maintenance</td>
+        <td>Fix, monitor, improve</td>
+        <td>Handle bugs, updates, and evolving needs</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>4. SDLC Models</h2>
+    <table>
+      <tr>
+        <th>Model</th>
+        <th>Use Case</th>
+        <th>Risk</th>
+      </tr>
+      <tr>
+        <td>Waterfall</td>
+        <td>Fixed-scope projects</td>
+        <td>Little flexibility for change</td>
+      </tr>
+      <tr>
+        <td>Agile</td>
+        <td>Fast-changing requirements</td>
+        <td>Needs constant collaboration</td>
+      </tr>
+      <tr>
+        <td>Scrum</td>
+        <td>Time-boxed sprints</td>
+        <td>Heavily reliant on ceremonies</td>
+      </tr>
+      <tr>
+        <td>Spiral</td>
+        <td>Risk-driven projects</td>
+        <td>Complex and expensive</td>
+      </tr>
+      <tr>
+        <td>V-Model</td>
+        <td>Critical software (e.g. medical, aerospace)</td>
+        <td>Heavy test process overhead</td>
+      </tr>
+      <tr>
+        <td>Big Bang</td>
+        <td>Experimental prototypes</td>
+        <td>Unpredictable, risky</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>5. Modern SDLC = Shift-Left Thinking</h2>
+    <p>Security and testing are no longer "end-of-pipeline" concerns. Dev teams now embrace <strong>Shift Left</strong>:</p>
+    <ul>
+      <li>Integrate <span class="highlight">testing early</span></li>
+      <li>Introduce <span class="highlight">security early</span></li>
+      <li>Automate everything with CI/CD</li>
+    </ul>
+    <p>This naturally leads to <strong>DevSecOps</strong>: embedding security into every phase of the SDLC.</p>
+  </div>
+
+  <div class="section">
+    <h2>6. Summary for Non-Technical Stakeholders</h2>
+    <blockquote>
+      Think of SDLC like building a smart city:
+      <ul>
+        <li>Plan roads, power, buildings (Planning, Requirements)</li>
+        <li>Design the layout and safety features (Design)</li>
+        <li>Construct with quality materials (Development)</li>
+        <li>Test for safety and regulations (Testing)</li>
+        <li>Open for public use (Deployment)</li>
+        <li>Maintain and improve over time (Maintenance)</li>
+      </ul>
+    </blockquote>
+  </div>
+
+  <div class="section">
+    <h2>Next: DevSecOps in SDLC</h2>
+    <p>Coming up next: how we enhance SDLC by embedding <strong>security automation, continuous monitoring</strong>, and <strong>policy-as-code</strong> into each step.</p>
+  </div>
+</body>
+</html>
