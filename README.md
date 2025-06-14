@@ -58,23 +58,23 @@ These principles are implemented through specific practices that form the backbo
 
 •**Continuous Integration (CI)**:
 
-o**Definition**: Developers frequently merge their code changes into a shared central repository (e.g., Git). Each merge automatically triggers an automated build process and execution of a comprehensive suite of tests (unit tests, integration tests).
+•**Definition**: Developers frequently merge their code changes into a shared central repository (e.g., Git). Each merge automatically triggers an automated build process and execution of a comprehensive suite of tests (unit tests, integration tests).
 
-o**Benefits**: Early detection of integration issues, reduction of merge conflicts, immediate feedback on code quality and functionality, leading to a more stable codebase.
+•**Benefits**: Early detection of integration issues, reduction of merge conflicts, immediate feedback on code quality and functionality, leading to a more stable codebase.
 
 •**Continuous Delivery (CD) / Continuous Deployment**:
 
-o**Continuous Delivery**: Ensures that code changes that pass all automated testing stages are always in a deployable state. Releases to production can be initiated at any time, though a manual approval step may still be present.
+•**Continuous Delivery**: Ensures that code changes that pass all automated testing stages are always in a deployable state. Releases to production can be initiated at any time, though a manual approval step may still be present.
 
-o**Continuous Deployment**: Automates the entire release process such that every code change that successfully passes all automated tests is automatically deployed to production without manual intervention.
+•**Continuous Deployment**: Automates the entire release process such that every code change that successfully passes all automated tests is automatically deployed to production without manual intervention.
 
-o**Benefits**: Accelerated time-to-market, reduced risk per release due to smaller change sets, rapid iteration capabilities, and quicker recovery from potential issues.
+•**Benefits**: Accelerated time-to-market, reduced risk per release due to smaller change sets, rapid iteration capabilities, and quicker recovery from potential issues.
 
 •**Automation**:
 
-o**Scope**: Automation is applied comprehensively across the SDLC, encompassing environment provisioning, test execution, application deployment, system configuration, monitoring, and self-healing mechanisms.
+•**Scope**: Automation is applied comprehensively across the SDLC, encompassing environment provisioning, test execution, application deployment, system configuration, monitoring, and self-healing mechanisms.
 
-o**Infrastructure as Code (IaC)**: The practice of managing and provisioning infrastructure (servers, networks, databases, configurations) using machine-readable definition files (e.g., Terraform, Ansible). This ensures environment consistency, repeatability, and version control.
+•**Infrastructure as Code (IaC)**: The practice of managing and provisioning infrastructure (servers, networks, databases, configurations) using machine-readable definition files (e.g., Terraform, Ansible). This ensures environment consistency, repeatability, and version control.
 
 5. **DevSecOps: Integrating Security**
 DevSecOps extends the DevOps philosophy by integrating security practices and considerations into every stage of the SDLC. Traditionally, security was a late-stage gate, often leading to discovering vulnerabilities late in the process, resulting in costly and time-consuming remediation. "Shifting Left" with security aims to proactively embed security from the initial planning and design phases through to operations and continuous monitoring.
