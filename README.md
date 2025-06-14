@@ -6,7 +6,7 @@ DevOps and DevSecOps Fundamentals: A Technical Overview
 1. Introduction to DevOps and DevSecOps
 This document provides a comprehensive overview of DevOps principles and practices, with a specific focus on the integration of security, known as DevSecOps. DevOps represents a cultural and operational shift aimed at unifying software development (Dev) and IT operations (Ops) to enable faster, more reliable, and more secure software delivery. DevSecOps extends this philosophy by embedding security considerations throughout the entire software development lifecycle (SDLC), transforming security from a late-stage gate into an integral, continuous process.
  
-![alt text](image.png)
+![DevOps vs DevSecOps: Understanding the Differences](images/devops-vs-devsecops.png "DevOps vs DevSecOps Comparison")
 
 2. DevOps Culture
 The foundation of DevOps is its culture, which emphasizes collaboration, shared responsibility, and continuous improvement across all teams involved in the software delivery process. Key cultural tenets include:
