@@ -1,34 +1,44 @@
 # DevOps-Fundamental
 Understand DevOps Culture &amp; Principles (CI/CD, Automation, DevSecOps)
 
-DevOps and DevSecOps Fundamentals: A Technical Overview
+**DevOps and DevSecOps Fundamentals: A Technical Overview**
 
-1. Introduction to DevOps and DevSecOps
+1. **Introduction to DevOps and DevSecOps**
 This document provides a comprehensive overview of DevOps principles and practices, with a specific focus on the integration of security, known as DevSecOps. DevOps represents a cultural and operational shift aimed at unifying software development (Dev) and IT operations (Ops) to enable faster, more reliable, and more secure software delivery. DevSecOps extends this philosophy by embedding security considerations throughout the entire software development lifecycle (SDLC), transforming security from a late-stage gate into an integral, continuous process.
  
 ![Alt text for the image](images/Understanding_DevOps.png)
 
-2. DevOps Culture
-The foundation of DevOps is its culture, which emphasizes collaboration, shared responsibility, and continuous improvement across all teams involved in the software delivery process. Key cultural tenets include:
-•Collaboration and Communication: Breaking down organizational silos between development, operations, quality assurance, and security teams. This fosters a unified approach where all stakeholders work towards common goals.
-•Shared Responsibility: All teams collectively own the product from its inception through to production. This encompasses responsibility for functionality, performance, stability, and crucially, security.
-•Empathy: Cultivating an understanding of the challenges and perspectives unique to each discipline (development, operations, security). This promotes constructive problem-solving and mutual support.
-•Feedback Loops: Establishing rapid and continuous feedback mechanisms to enable quick identification of issues, facilitate learning from both successes and failures, and drive iterative improvements.
-•Blameless Post-Mortems: When incidents occur, the focus shifts from assigning blame to understanding root causes and implementing preventative measures. This promotes a culture of psychological safety and continuous organizational learning.
- 
- ![alt text](image-1.png)
+2. **DevOps Culture**
 
-3. DevOps Principles
+The foundation of DevOps is its culture, which emphasizes collaboration, shared responsibility, and continuous improvement across all teams involved in the software delivery process. Key cultural tenets include:
+
+•**Collaboration and Communication**: Breaking down organizational silos between development, operations, quality assurance, and security teams. This fosters a unified approach where all stakeholders work towards common goals.
+
+•**Shared Responsibility**: All teams collectively own the product from its inception through to production. This encompasses responsibility for functionality, performance, stability, and crucially, security.
+
+•**Empathy**: Cultivating an understanding of the challenges and perspectives unique to each discipline (development, operations, security). This promotes constructive problem-solving and mutual support.
+
+•**Feedback Loops**: Establishing rapid and continuous feedback mechanisms to enable quick identification of issues, facilitate learning from both successes and failures, and drive iterative improvements.
+
+•**Blameless Post-Mortems**: When incidents occur, the focus shifts from assigning blame to understanding root causes and implementing preventative measures. This promotes a culture of psychological safety and continuous organizational learning.
+ 
+![Alt text for the image](images/DevOpsCulture.png)
+
+3.**DevOps Principles**
+
 DevOps practices are guided by established principles that ensure efficiency, quality, and adaptability. Two prominent frameworks define these principles: CALMS and The Three Ways.
-3.1.The CALMS Framework
+
+3.1.**The CALMS Framework**
+
 CALMS is an acronym representing five core components of DevOps:
-•Culture: As detailed in Section 2, a collaborative and shared-responsibility mindset is paramount.
-•Automation: The systematic automation of repetitive tasks across the entire SDLC, including build, test, deploy, monitoring, and security processes. Automation reduces human error and accelerates delivery.
+
+•**Culture**: As detailed in Section 2, a collaborative and shared-responsibility mindset is paramount.
+•**Automation**: The systematic automation of repetitive tasks across the entire SDLC, including build, test, deploy, monitoring, and security processes. Automation reduces human error and accelerates delivery.
 •Lean: Application of lean manufacturing principles to software development, focusing on eliminating waste, optimizing workflow, and maximizing value delivery through small, frequent iterations.
 •Measurement: Quantifying key performance indicators (KPIs) across the SDLC. Metrics such as build times, deployment frequency, mean time to recovery (MTTR), and security vulnerability detection rates provide insights for continuous optimization.
 •Sharing: Promoting the open exchange of knowledge, tools, practices, and feedback across all teams. Transparency and open communication are critical for fostering a learning organization.
  
- ![alt text](image-2.png)
+ ![Alt text for the image](images/CALMS.png)
 
 3.2. The Three Ways of DevOps
 Derived from "The Phoenix Project," these principles describe the flow of work and information in a DevOps environment:
